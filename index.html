@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assurit - Your Insurance Partner</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Chuck Norris Joke Generator</h1>
-    <button onclick="data()">Get a Chuck Norris Joke</button>
-    <div id="joke" style="margin-top:20px;"></div>
-    <hr>
-    <h2>Student List</h2>
-    <div id="student-list">
-        <p>EX</p>
-    </div>
+    <nav class="navbar">
+        <div class="logo">Assurit</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><input type="text" id="search" placeholder="Search insurance solutions..."></li>
+            <li><button id="searchBtn">Search</button></li>
+            <li><button id="clearBtn">Clear</button></li>
+        </ul>
+    </nav>
+    <main style="max-width: 1200px; margin: 3rem auto; padding: 2rem;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h1 style="color: #1e3c72; font-size: 2.5rem; margin-bottom: 1rem;">Welcome to Assurit</h1>
+            <p style="color: #555; font-size: 1.2rem;">Your trusted partner in comprehensive insurance solutions</p>
+        </div>
+        <hr style="margin: 2rem 0; border: none; border-top: 2px solid #4fc3f7;">
+        <h2 style="color: #2a5298; text-align: center; margin-bottom: 1.5rem;">Just for Fun</h2>
+        <button onclick="data()">Get a Chuck Norris Joke</button>
+        <div id="joke" style="margin-top:20px;"></div>
+        <hr>
+        <h2>Student List</h2>
+        <div id="student-list">
+            <p>EX</p>
+        </div>
+    </main>
 </body>
 </html>
