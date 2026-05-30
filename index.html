@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assurit - Your Insurance Partner</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Chuck Norris Joke Generator</h1>
-    <button onclick="data()">Get a Chuck Norris Joke</button>
-    <div id="joke" style="margin-top:20px;"></div>
-    <hr>
-    <h2>Student List</h2>
-    <div id="student-list">
-        <p>EX</p>
-    </div>
+    <nav class="navbar">
+        <div class="logo">Assurit</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><input type="text" id="search" placeholder="Search insurance solutions..."></li>
+            <li><button id="searchBtn">Search</button></li>
+            <li><button id="clearBtn">Clear</button></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <div class="hero-section">
+            <h1 class="hero-title">Welcome to Assurit</h1>
+            <p class="hero-subtitle">Your trusted partner in comprehensive insurance solutions</p>
+        </div>
+        <hr class="section-divider">
+        <h2 class="section-heading">Just for Fun</h2>
+        <button onclick="data()">Get a Chuck Norris Joke</button>
+        <div id="joke"></div>
+        <hr>
+        <h2>Student List</h2>
+        <div id="student-list">
+            <p>EX</p>
+        </div>
+    </main>
 </body>
 </html>
